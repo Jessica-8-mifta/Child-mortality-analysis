@@ -47,6 +47,14 @@ RMSE was 13.022, MAE 8.587 and R² 0.691. Bangladesh actual: 32.3;
 predicted: 31.33 deaths per 1,000 live births. These results describe this
 snapshot and split, rather than establishing a universal best method.
 
+### Model comparison
+
+![Model comparison](outputs/reference/model_comparison.png)
+
+### OLS diagnostics
+
+![OLS diagnostic plots](outputs/reference/ols_diagnostics.png)
+
 ## Data dictionary
 
 | Column | World Bank indicator | Unit |
