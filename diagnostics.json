@@ -1,0 +1,6 @@
+{
+  "outcome_skewness": 2.8225584830689727,
+  "residual_skewness": 3.0967843060733666,
+  "shapiro_p": 2.892430643620977e-15,
+  "breusch_pagan_p": 5.027660058439718e-07
+}

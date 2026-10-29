@@ -1,0 +1,13 @@
+{
+  "retrieved_at_utc": "2026-10-29T16:10:41.598661+00:00",
+  "year": 2019,
+  "indicators": {
+    "u5_mort": "SH.DYN.MORT",
+    "measles_imm": "SH.IMM.MEAS",
+    "gdp_pc": "NY.GDP.PCAP.CD",
+    "water": "SH.H2O.BASW.ZS",
+    "sanit": "SH.STA.BASS.ZS"
+  },
+  "source": "World Bank Indicators API v2",
+  "sha256": "1a8013fcf2e87375653901af2eaec56d2bc759afe7ea4358176eca5b84ca3ebd"
+}

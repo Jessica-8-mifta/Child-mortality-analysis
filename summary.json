@@ -1,0 +1,31 @@
+{
+  "year": 2019,
+  "seed": 42,
+  "n_eligible": 217,
+  "n_complete": 181,
+  "n_train": 144,
+  "n_test": 36,
+  "selected_model": "Huber",
+  "holdout": {
+    "rmse": 13.021853873428483,
+    "mae": 8.58733853568067,
+    "r2": 0.6905106181326401,
+    "negative_predictions": 0
+  },
+  "bangladesh": {
+    "actual": 32.3,
+    "prediction": 31.33009615182528,
+    "training": "training partition only; Bangladesh and holdout excluded"
+  },
+  "input_sha256": "1a8013fcf2e87375653901af2eaec56d2bc759afe7ea4358176eca5b84ca3ebd",
+  "python": "3.12.14",
+  "versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "scikit-learn": "1.8.0",
+    "statsmodels": "0.15.0",
+    "matplotlib": "3.10.8",
+    "joblib": "1.5.3"
+  }
+}

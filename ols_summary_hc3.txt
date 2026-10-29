@@ -1,0 +1,30 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                u5_mort   R-squared:                       0.740
+Model:                            OLS   Adj. R-squared:                  0.733
+Method:                 Least Squares   F-statistic:                     78.65
+Date:                Thu, 29 Oct 2026   Prob (F-statistic):           9.85e-35
+Time:                        09:10:41   Log-Likelihood:                -615.41
+No. Observations:                 144   AIC:                             1241.
+Df Residuals:                     139   BIC:                             1256.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+===============================================================================
+                  coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const         192.7946     43.854      4.396      0.000     106.088     279.501
+measles_imm    -0.5813      0.343     -1.694      0.092      -1.260       0.097
+gdp_pc         -4.1127      1.683     -2.443      0.016      -7.441      -0.785
+water          -0.5982      0.514     -1.164      0.247      -1.615       0.418
+sanit          -0.3198      0.227     -1.410      0.161      -0.768       0.128
+==============================================================================
+Omnibus:                      137.675   Durbin-Watson:                   1.991
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             4172.686
+Skew:                           3.097   Prob(JB):                         0.00
+Kurtosis:                      28.634   Cond. No.                     1.55e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.55e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
