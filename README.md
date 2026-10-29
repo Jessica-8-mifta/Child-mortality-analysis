@@ -3,7 +3,8 @@
 An end-to-end statistical modeling project comparing OLS, Box–Cox regression,
 Huber regression and Random Forest against a mean baseline using World Bank
 2019 economy-level data. Outcome: under-five deaths per 1,000 live births.
-
+This project used country-level data to understand child mortality patterns and provide a starting point for more focused child-health research.
+Here I studied data from 181 countries and economies to see how childhood vaccination, clean drinking water, sanitation, and income relate to deaths among children under five. I compared different statistical methods to find which predicted these death rates most accurately. This work can help researchers identify places where child mortality is higher than expected and investigate what support may be needed.
 **Research question:** How well do health-service coverage and economic indicators
 predict cross-country variation in under-five mortality, and do flexible or
 robust methods improve on OLS?
@@ -55,6 +56,12 @@ snapshot and split, rather than establishing a universal best method.
 
 ![OLS diagnostic plots](outputs/reference/ols_diagnostics.png)
 
+# Practical Importance
+- Understanding differences: It helps explore why child death rates vary across countries.
+- Guiding further investigation: It can highlight countries that deserve closer study.
+- Supporting better research: It shows how to compare prediction methods carefully before using their results.
+## Limitation
+This study does not prove that improving any one factor will reduce deaths by a particular amount, and it has not directly measured improvements in children’s health.
 ## Data dictionary
 
 | Column | World Bank indicator | Unit |
